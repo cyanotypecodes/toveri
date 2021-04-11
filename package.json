@@ -2,8 +2,9 @@
   "name": "toveri",
   "version": "1.0.0",
   "description": "A simple global state management solution for React and vanilla JS.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,15 @@
     "state"
   ],
   "author": "Cyanotype",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "valtio": "^1.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
 }
