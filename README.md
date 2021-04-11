@@ -20,7 +20,7 @@ const [useStore] = createStore({
   },
   actions: {
     increment: ({ state }) => state.count++,
-    decrementAsync: async ({ state ) => {
+    decrementAsync: async ({ state }) => {
        await new Promise(res => setTimeout(res, 1000));
        state.count--
     },
