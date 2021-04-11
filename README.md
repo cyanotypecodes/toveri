@@ -5,7 +5,8 @@ A simple global state management solution for React and vanilla JS. Toveri is a 
 
 
 ### Create your store
-createStore accepts an object defining your store state and updating actions.
+
+Actions can be asynchronous or synchronous, just mutate the store state when you are ready. 
 
 ```javascript
 import { createStore } from 'toveri'
@@ -28,8 +29,6 @@ const [useStore] = createStore({
 })
 ```
 
-Actions can be asynchronous or synchronous, just mutate the store state when you are ready. 
-
 ### Use the store hook in your react components
 
 ```javascript
@@ -46,6 +45,3 @@ const MyComponent = () => {
   )
 }
 ```
-
-
-
