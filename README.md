@@ -1,4 +1,4 @@
-# 🌐 toveri
+# toveri
 A simple global state management solution for React and vanilla JS. Toveri is a wrapper around [Valtio](https://github.com/pmndrs/valtio) with an API similar to redux-toolkit.
 
 [**DEMO**](https://codesandbox.io/s/new)
