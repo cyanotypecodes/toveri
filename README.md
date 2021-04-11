@@ -26,6 +26,13 @@ const [useStore] = createStore({
     },
     reset: ({ state }) => (state.count = 1),
   }
+  config: {
+    devTools: "hello",
+    persist: {
+      key: "store"
+      storage: "localStorage",
+    },
+  }
 })
 ```
 
@@ -45,3 +52,7 @@ const MyComponent = () => {
   )
 }
 ```
+
+
+
+
